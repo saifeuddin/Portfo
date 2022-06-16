@@ -137,6 +137,11 @@
     }
 
     .single {
-        width: 180px;
+        width: 320px;
+        height: 260px;
+    }
+
+    .single div:first-of-type img {
+        width: 55%;
     }
 }
