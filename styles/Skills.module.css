@@ -1,0 +1,156 @@
+.skills {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    position: relative;
+}
+
+.s_container {
+    padding: 0;
+}
+
+
+
+
+.s_wrapper {
+    padding: 0;
+}
+
+
+
+
+
+
+/* ------------------ */
+.lists {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+
+    z-index: 5;
+    width: 100%;
+}
+
+.lists .container {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.lists .container .single {
+    padding: 20px 40px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.single div {
+    padding: 30px 30px 8px 9px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.single div span { 
+    border: 1px solid rgb(245, 226, 226);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: antiquewhite;
+}
+.single div:nth-child(1) span { 
+    margin-left: 10px;
+}
+.single div:nth-child(2) span { 
+    margin-right: 10px;
+}
+
+.single:nth-child(1) div:nth-child(1) span { 
+    background-color: rgb(97, 97, 219);
+}
+.single:nth-child(1) div:nth-child(2) span { 
+    background-color: rgb(192, 28, 28);
+}
+.single:nth-child(2) div:nth-child(2) span { 
+    background-color: rgb(63, 156, 63);
+}
+.single:nth-child(2) div:nth-child(1) span { 
+    background-color: yellow;
+}
+.single:nth-child(3) div:nth-child(1) span { 
+    background-color: grey;
+}
+.single:nth-child(3) div:nth-child(2) span { 
+    background-color: blue;
+}
+.single:nth-child(4) div:nth-child(1) span { 
+    background-color: white;
+}
+.single:nth-child(4) div:nth-child(2) span { 
+    background-color: rgb(199, 199, 45);
+}
+.single:nth-child(5) div:nth-child(1) span { 
+    background-color: pink;
+}
+.single:nth-child(5) div:nth-child(2) span { 
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------- */
+.gradient {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+
+
+    border-radius: 100%;
+    padding: 15px;
+    width: 450px;
+    height: 450px;
+
+
+    background-image: conic-gradient(rgb(192, 28, 28) 0% 10%, rgb(63, 156, 63) 10% 20%, blue 20% 30%, rgb(199, 199, 45) 30% 40%, black 40% 50%, pink 50% 60%, white 60% 70%, grey 70% 80%, yellow 80% 90%, rgb(97, 97, 219) 90% 100%);
+}
+
+.gradient .ball {
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: rgb(231, 221, 221);
+}
+
+.gradient .ball .skill {
+    background-color: rgba(255, 255, 255, 0.726);
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 100%;
+    color: rgb(75, 60, 88);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 45px;
+    font-weight: 800;
+    box-shadow: 0px 0px 5px 5px rgb(206, 198, 198);
+}

@@ -1,0 +1,85 @@
+.services {
+    padding: 0;
+}
+
+
+.container {
+    padding: 0;
+}
+
+
+
+
+.wrapper {
+    width: 900px;
+    max-width: 96%;
+    margin: 0 auto;
+}
+
+
+
+
+
+.service {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 150px 50px;
+}
+
+
+
+
+.title {
+    color: rgb(75, 60, 88);
+    border-radius: 50px 4px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    margin: 50px 0 100px 0;
+    padding: 30px 0;
+    box-shadow: 0px 6px 0px 0px rgb(114, 113, 113);
+}
+
+
+
+
+.single {
+    width: 230px;
+    height: 300px;
+    padding: 20px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, rgb(233, 81, 225) 40%, rgb(251, 255, 251) 40%);
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 11px 1px rgb(95, 93, 93);
+
+    transition: all .3s linear;
+}
+.single:hover {
+    transform: translateY(35px) ;
+}
+
+.single div {
+    margin-top: 20px;
+}
+.single div:first-of-type {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.single div:last-of-type {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(9, 33, 100);
+    font-weight: bold;
+}
+.single div:first-of-type img {
+    width: 80%;
+    display: block;
+    object-fit: cover;
+    border-radius: 5px;
+}
