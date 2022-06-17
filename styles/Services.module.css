@@ -137,11 +137,11 @@
     }
 
     .single {
-        width: 300px;
-        height: 260px;
+        width: 280px;
+        height: 230px;
     }
 
     .single div:first-of-type img {
-        width: 55%;
+        width: 35%;
     }
 }
