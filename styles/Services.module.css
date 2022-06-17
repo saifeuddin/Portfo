@@ -138,10 +138,13 @@
 
     .single {
         width: 280px;
-        height: 230px;
+        height: 240px;
     }
 
     .single div:first-of-type img {
-        width: 35%;
+        border-radius: 15px;
+        padding: 15px;
+        background-color: rgb(255, 255, 255);
+        width: 45%;
     }
 }
