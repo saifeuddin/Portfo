@@ -69,7 +69,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(168, 176, 192);
 }
 .pic img {
     border-radius: 100%;

@@ -1,14 +1,31 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 
 
 //
 import styles from '../styles/Skills.module.css'
+import style from '../styles/M_Skills.module.css'
 
 
 
 
 const Skills = () => {
+
+    const [images, setimages] = useState([
+        'html.png',
+        "css.png",
+        'js.png',
+        'react.png',
+        'next.jpg',
+        'node.png',
+        'mysql.png',
+        'mongodb.png',
+        'json.png',
+        'git.png',
+        'figma.png',
+    ])
+
+
     return (
         <>
             <div className={styles.skills}>
@@ -70,6 +87,34 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div className={style.M_Skills}>
+                <div className={style.M_Skills_container}>
+                    <div className={style.mtitle}>
+                        My Skills
+                    </div>
+                    <div className={style.Msingleskill}>
+                        {
+                            images.map((img)=> {
+                                return (
+                                <div className={style.ss} key={img}>
+                                    <div>
+                                        <img src={`skill/${img}`} alt={img} />
+                                    </div>
+                                    <div>
+                                        <i>
+                                            
+                                        </i>
+                                    </div>
+                                </div>
+                                )
+                            })
+                        }
                     </div>
                 </div>
             </div>
