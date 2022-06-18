@@ -194,6 +194,11 @@
         width: 300px;
         height: 300px;
     }
+
+
+    .lists {
+        top: 60%;
+    }
 }
 
 
@@ -205,7 +210,49 @@
 
 
 
+@media screen and (max-width: 768px) {
+
+    .gradient {
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .lists {
+        top: 65%;
+    }
+
+    .lists .container .single {
+        padding: 10px 40px;
+    }
+
+
+    .gradient .ball .skill {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 550px) {
+
+    .lists {
+        top: 50%;
+    }
+
+
+    .lists .container .single {
+        padding: 10px 40px;
+    }
 
     .gradient {
         display: none;
