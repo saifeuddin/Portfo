@@ -26,7 +26,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 150px 50px;
+    gap: 100px 50px;
 }
 
 
@@ -48,7 +48,7 @@
 
 
 .single {
-    width: 230px;
+    width: 250px;
     height: 300px;
     padding: 20px;
     cursor: pointer;
@@ -110,9 +110,10 @@
     }
 
     .single {
-        width: 200px;
-        height: 260px;
+        width: 220px;
+        height: 280px;
     }
+
 }
 
 
