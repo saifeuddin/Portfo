@@ -52,10 +52,10 @@
     height: 300px;
     padding: 20px;
     cursor: pointer;
-    background: linear-gradient(to bottom, rgb(233, 81, 225) 40%, rgb(251, 255, 251) 40%);
+    background: linear-gradient(to bottom, rgb(134, 114, 134)0% 90%, hsl(0, 0%, 100%) 90%);
     border-radius: 10px;
 
-    box-shadow: 0px 0px 11px 1px rgb(95, 93, 93);
+    box-shadow: 05px 05px 2px 0px rgb(95, 93, 93);
 
     transition: all .3s linear;
 }
@@ -72,16 +72,16 @@
     justify-content: center;
 }
 .single div:last-of-type {
-    text-align: center;
     font-size: 20px;
-    color: rgb(9, 33, 100);
+    text-align: center;
     font-weight: bold;
+    color: rgb(218, 223, 236);
 }
 .single div:first-of-type img {
-    width: 80%;
+    width: 70%;
     display: block;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 9px;
 }
 
 
@@ -139,7 +139,7 @@
 
     .single {
         width: 280px;
-        height: 240px;
+        height: 250px;
     }
 
     .single div:first-of-type img {
