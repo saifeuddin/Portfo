@@ -12,17 +12,50 @@ import style from '../styles/M_Skills.module.css'
 const Skills = () => {
 
     const [images, setimages] = useState([
-        'html.png',
-        "css.png",
-        'js.png',
-        'react.png',
-        'next.jpg',
-        'node.png',
-        'mysql.png',
-        'mongodb.png',
-        'json.png',
-        'git.png',
-        'figma.png',
+        {
+            a: 'html.png',
+            b: "100%"
+        },
+        {
+            a: "css.png",
+            b: "100%"
+        },
+        {
+            a: 'js.png',
+            b: "90%"
+        },
+        {
+            a: 'react.png',
+            b: "90%"
+        },
+        {
+            a: 'next.jpg',
+            b: "90%"
+        },
+        {
+            a: 'node.png',
+            b: "100%"
+        },
+        {
+            a: 'mysql.png',
+            b: "60%"
+        },
+        {
+            a: 'mongodb.png',
+            b: "100%"
+        },
+        {
+            a: 'json.png',
+            b: "100%"
+        },
+        {
+            a: 'git.png',
+            b: "80%"
+        },
+        {
+            a: 'figma.png',
+            b: "60%"
+        },
     ])
 
 
@@ -102,15 +135,15 @@ const Skills = () => {
                         {
                             images.map((img)=> {
                                 return (
-                                <div className={style.ss} key={img}>
+                                <div className={style.ss} key={img.a}>
                                     <div>
-                                        <img src={`skill/${img}`} alt={img} />
+                                        <img src={`skill/${img.a}`} alt={img.a} />
                                     </div>
                                     <div className={style.progress}>
                                         <div className={style.bg}>
                                             <div className={style.outer}>
                                                 <div className={style.inner}>
-                                                    100%
+                                                    {img.b}
                                                 </div>
                                             </div>
                                         </div>

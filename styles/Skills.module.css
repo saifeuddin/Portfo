@@ -48,16 +48,17 @@
 
 .single div {
     padding: 30px 30px 8px 9px;
-    font-size: 25px;
+    font-size: 33px;
     font-weight: bold;
 }
 .single div span { 
-    border: 1px solid rgb(245, 226, 226);
     display: inline-block;
     width: 20px;
     height: 20px;
     border-radius: 100%;
     background-color: antiquewhite;
+
+    box-shadow: 0px 0px 3px 2px rgb(6, 27, 61);
 }
 .single div:nth-child(1) span { 
     margin-left: 10px;
@@ -116,35 +117,54 @@
 /* --------------- */
 .gradient {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 35%;
+    /* transform: translate(-50%, -50%); */
 
 
     border-radius: 100%;
-    padding: 15px;
+    padding: 13px;
     width: 450px;
     height: 450px;
 
 
     background-image: conic-gradient(rgb(192, 28, 28) 0% 10%, rgb(63, 156, 63) 10% 20%, blue 20% 30%, rgb(199, 199, 45) 30% 40%, black 40% 50%, pink 50% 60%, white 60% 70%, grey 70% 80%, yellow 80% 90%, rgb(97, 97, 219) 90% 100%);
+
+    box-shadow: 0px 0px 55px 1px rgb(59, 41, 41);
+
+    animation: rr 5s linear infinite backwards;
+}
+
+@keyframes rr {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .gradient .ball {
-    padding: 40px;
+    padding: 60px;
     width: 100%;
     height: 100%;
     border-radius: 100%;
-    background-color: rgb(231, 221, 221);
+    background-color: rgb(119, 110, 128);
 }
 
 .gradient .ball .skill {
-    background-color: rgba(255, 255, 255, 0.726);
+    background-color: rgba(27, 15, 15, 0.726);
     height: 100%;
     width: 100%;
     margin: 0 auto;
     border-radius: 100%;
-    color: rgb(75, 60, 88);
+    color: rgb(229, 218, 240);
 
     display: flex;
     justify-content: center;
@@ -152,9 +172,27 @@
 
     font-size: 45px;
     font-weight: 800;
-    box-shadow: 0px 0px 5px 5px rgb(206, 198, 198);
-}
+    box-shadow: inset 0px 0px 2px 3px rgb(206, 198, 198);
 
+    animation: rr2 5s linear infinite;
+}
+@keyframes rr2 {
+    0% {
+        transform: rotate(-0deg);
+    }
+
+    25% {
+        transform: rotate(-90deg);
+    }
+
+    50% {
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
 
 
 
@@ -175,9 +213,13 @@
 @media screen and (max-width: 1250px) {
 
     .gradient {
-        top: 25%;
+        top: 15%;
         width: 350px;
         height: 350px;
+    }
+
+    .lists {
+        top: 70%;
     }
 }
 
@@ -190,14 +232,22 @@
 
 @media screen and (max-width: 992px) {
 
+    .skills {
+        height: 110vh;
+    }
+
     .gradient {
         width: 300px;
         height: 300px;
     }
 
+    .gradient .ball {
+        padding: 25px;
+    }
+
 
     .lists {
-        top: 60%;
+        top: 65%;
     }
 }
 
@@ -216,6 +266,7 @@
         width: 250px;
         height: 250px;
     }
+
 
 
     .lists {
@@ -243,22 +294,9 @@
 
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 710px) {
 
     .skills {
-        display: none;
-    }
-
-    .lists {
-        top: 50%;
-    }
-
-
-    .lists .container .single {
-        padding: 10px 40px;
-    }
-
-    .gradient {
         display: none;
     }
 }

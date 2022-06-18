@@ -72,7 +72,7 @@
     align-items: center;
     background-color: rgb(20, 39, 77);
 
-    animation: shdow 2s linear 2s forwards;
+    animation: shdow 2s linear 1s forwards;
     box-shadow: 0px 0px 50px 1820px rgb(0, 0, 0);
 }
 @keyframes shdow {
@@ -168,7 +168,7 @@
 
 
     .profile_pic {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
 
@@ -185,26 +185,6 @@
 
 
 @media screen and (max-width: 568px) {
-
-
-    /* .profile_name div:nth-child(1) {
-        font-size: 15px;
-    }
-
-    .profile_name div:nth-child(2) {
-        font-size: 25px;
-    }
-
-    .profile_name div:nth-child(3) {
-        font-size: 16px;
-    }
-
-    .profile_name div:nth-child(4) {
-        font-size: 20px;
-    } */
-
-
-
 
 
     .pic {
