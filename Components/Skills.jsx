@@ -106,10 +106,14 @@ const Skills = () => {
                                     <div>
                                         <img src={`skill/${img}`} alt={img} />
                                     </div>
-                                    <div>
-                                        <i>
-                                            
-                                        </i>
+                                    <div className={style.progress}>
+                                        <div className={style.bg}>
+                                            <div className={style.outer}>
+                                                <div className={style.inner}>
+                                                    0%
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 )
