@@ -110,7 +110,7 @@ const Skills = () => {
                                         <div className={style.bg}>
                                             <div className={style.outer}>
                                                 <div className={style.inner}>
-                                                    0%
+                                                    100%
                                                 </div>
                                             </div>
                                         </div>
