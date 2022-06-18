@@ -31,10 +31,9 @@
     }
 
     .mtitle::after {
-        /* content: '\2605'; */
         content: '\2720';
         color: rgb(35, 30, 80);
-        margin-left: 200px;
+        margin-left: 50px;
         font-size: 25px;
         background-color: rgb(211, 181, 181);
         border-radius: 100%;
