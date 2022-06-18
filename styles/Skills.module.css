@@ -243,7 +243,11 @@
 
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
+
+    .skills {
+        display: none;
+    }
 
     .lists {
         top: 50%;
