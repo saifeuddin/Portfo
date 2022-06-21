@@ -63,6 +63,10 @@ const Skills = () => {
         <>
             <div className={styles.skills}>
                 <div className={styles.s_container}>
+                    <div className={style.mtitle} id="skills">
+                        My Skills
+                    </div>
+
                     <div className={styles.s_wrapper}>
                         <div className={styles.ss}>
                             <div className={styles.lists}>
@@ -113,8 +117,8 @@ const Skills = () => {
                             <div className={styles.gradient}>
                                 <div className={styles.ball}>
                                     <div className={styles.skill}>
-                                        <div id="skills">
-                                            My Skills
+                                        <div>
+                                            Skills
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +132,7 @@ const Skills = () => {
 
             <div className={style.M_Skills}>
                 <div className={style.M_Skills_container}>
-                    <div className={style.mtitle}>
+                    <div className={style.mtitle} id='skill'>
                         My Skills
                     </div>
                     <div className={style.Msingleskill}>

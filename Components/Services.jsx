@@ -14,14 +14,13 @@ const Services = () => {
         <section>
             <div className={styles.services}>
                 <div className={styles.container}>
-                    <div className={styles.title}>
+                    <div className={styles.title} id='services'>
                         Services
                     </div>
                     <br />
                     <br />
                     <div className={styles.wrapper}>
-                        <div className={styles.service} id
-                        ='services'>
+                        <div className={styles.service}>
                             <div className={styles.single}>
                                 <div>
                                     <img src='design.gif' />

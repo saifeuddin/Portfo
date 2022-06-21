@@ -1,0 +1,80 @@
+.container {
+    background-color: var(--main-bg-color);
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container .main {
+    margin: 50px;
+    border-radius: 10px;
+    z-index: 1111;
+
+    /* For Glass */
+    background: rgba(255, 255, 255, 0.37);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 1);
+
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+
+    .container .main {
+        margin: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .container .main {
+        margin: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 550px) {
+
+    .container .main {
+        margin: 5px;
+    }
+}

@@ -118,7 +118,7 @@
 .gradient {
     position: absolute;
     top: 30%;
-    left: 35%;
+    left: 40%;
     /* transform: translate(-50%, -50%); */
 
 
@@ -213,13 +213,14 @@
 @media screen and (max-width: 1250px) {
 
     .gradient {
-        top: 15%;
+        left: 35%;
+        top: 18%;
         width: 350px;
         height: 350px;
     }
 
     .lists {
-        top: 70%;
+        top: 75%;
     }
 }
 

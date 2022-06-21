@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+
+
+.container {
+    background-color: var(--main-bg-color);
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+.container .main {
+    margin: 50px;
+    border-radius: 10px;
+    z-index: 1111;
+
+    /* For Glass */
+    background: rgba(255, 255, 255, 0.37);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 1);
+
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+.about {
+    margin-top: 70px;
+}
+
+
+.about_container {
+    border-radius: 10px;
+    padding-top: 60px;
+    background-image: linear-gradient(to right, rgba(14, 0, 107, 0.424) 5%, rgba(255, 255, 255, 0) 5% 85%, rgba(100, 4, 68, 0.534) 85%);
+}
+
+.section {
+    font-size: 25px;
+    width: 1000px;
+    max-width: 97%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Alfa Slab One', cursive;
+
+
+    background: -webkit-linear-gradient(rgb(69, 90, 121), rgb(90, 25, 116) , rgb(2, 1, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 5px;
+
+
+    background: -webkit-linear-gradient(rgb(0, 85, 255), rgb(100, 73, 117) , rgb(15, 0, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    border-radius: 5px;
+    border-bottom: 11px ridge rgb(255, 255, 255);
+}
+
+
+.svvg {
+    height: 400px;
+}
+.svvg img {
+    display: block;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+
+.section:nth-child(2) > div {
+    margin-bottom: 20px;
+    padding: 25px 15px;
+    text-align: justify;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.178);
+}
+.section:nth-child(2) > div:first-of-type {
+    color: rgb(72, 64, 78);
+    font-weight: bold;
+}
+
+.section b {
+    color: rgb(15, 9, 87);
+    padding: 0 5px 0 10px;
+    background-color: rgba(102, 51, 153, 0.418);
+    border-radius: 5px;
+    border-bottom: 5px groove rgb(225, 232, 246);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social {
+    padding: 50px 0 150px 0;
+}
+
+
+.social_svg {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.social_svg img {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+}
+.social_icons {
+    padding-top: 100px;
+
+    width: 900px;
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    gap: 100px 0 ;
+}
+.social_icons div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    font-size: 25px;
+}
+.social_icons  svg {
+    font-size: 40px;
+    color: rgb(173, 84, 68);
+}
+.social_icons  a {
+    border-radius: 5px;
+    border-bottom: 5px groove rgb(180, 152, 152);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+
+    .container .main {
+        margin: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .container .main {
+        margin: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 550px) {
+
+    .container .main {
+        margin: 5px;
+    }
+}

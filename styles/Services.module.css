@@ -11,7 +11,7 @@
 
 
 .wrapper {
-    width: 900px;
+    width: 1000px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -59,8 +59,8 @@
 
 
 .single {
-    width: 250px;
-    height: 300px;
+    width: 280px;
+    height: 320px;
     padding: 20px;
     cursor: pointer;
     background: linear-gradient(to bottom, rgb(134, 114, 134)0% 90%, hsl(0, 0%, 100%) 90%);
@@ -152,7 +152,7 @@
 
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 570px) {
 
     .title {
         font-size: 30px;
@@ -165,7 +165,7 @@
 
     .single {
         width: 280px;
-        height: 250px;
+        height: 260px;
     }
 
     .single div:first-of-type img {
