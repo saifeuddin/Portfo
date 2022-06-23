@@ -12,6 +12,7 @@
 
     margin: 150px 0 100px 0;
     padding: 30px 0;
+    
     border-bottom: 21px solid rgb(34, 34, 34);
     background-image: linear-gradient(to right, rgb(255, 255, 255) 30%, rgb(186, 187, 189) 30%);
 }
@@ -21,9 +22,9 @@
     color: rgb(35, 30, 80);
     margin-left: 50px;
     font-size: 25px;
-    background-color: rgb(211, 181, 181);
+    background-color: rgb(238, 134, 134);
     border-radius: 100%;
-    padding-inline: 8px;
+    padding: 2px 8px;
 }
 
 
@@ -46,8 +47,6 @@
         margin: 150px 0 100px 0;
         font-size: 30px;
         padding: 20px 0;
-        box-shadow: 05px 05px 0px 8px rgb(34, 50, 107);
-        background-color: white;
     }
 
     .mtitle::after {
@@ -55,7 +54,7 @@
         color: rgb(35, 30, 80);
         margin-left: 50px;
         font-size: 25px;
-        background-color: rgb(211, 181, 181);
+        background-color: rgb(158, 141, 141);
         border-radius: 100%;
         padding-inline: 8px;
     }
