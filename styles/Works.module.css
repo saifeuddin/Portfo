@@ -33,7 +33,6 @@
 
 
 .title {
-    text-align: center;
     font-size: 50px;
     padding: 30px 0;
     margin: 150px 0 100px 0;
@@ -43,8 +42,9 @@
 
     border-radius: 10px 4px;
     color: rgb(75, 60, 88);
-    background-color: rgb(255, 255, 255);
-    box-shadow: 05px 05px 0px 8px rgb(11, 31, 104);
+
+    border-bottom: 21px solid rgb(34, 34, 34);
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 30%, rgb(186, 187, 189) 30%);
 }
 .title::after {
     content: '\2720';

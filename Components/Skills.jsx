@@ -73,42 +73,52 @@ const Skills = () => {
                                 <div className={styles.container}>
                                     <div className={styles.single}>
                                         <div>
-                                            HTML <span></span>
+                                            <span></span>
+                                            HTML 
                                         </div>
                                         <div>
-                                            <span></span> CSS
-                                        </div>
-                                    </div>
-                                    <div className={styles.single}>
-                                        <div>
-                                            JavaScript <span></span>
-                                        </div>
-                                        <div>
-                                            <span></span> Dom Manipulation
+                                            CSS
+                                            <span></span> 
                                         </div>
                                     </div>
                                     <div className={styles.single}>
                                         <div>
-                                            React Js <span></span>
+                                            <span></span>
+                                            JavaScript 
                                         </div>
                                         <div>
-                                            <span></span> Next Js
-                                        </div>
-                                    </div>
-                                    <div className={styles.single}>
-                                        <div>
-                                            Json <span></span>
-                                        </div>
-                                        <div>
-                                            <span></span> Node Js
+                                            Dom Manipulation
+                                            <span></span>
                                         </div>
                                     </div>
                                     <div className={styles.single}>
                                         <div>
-                                            MongoDB <span></span>
+                                            <span></span>
+                                            React Js 
                                         </div>
                                         <div>
-                                            <span></span> My SQL
+                                            Next Js
+                                            <span></span> 
+                                        </div>
+                                    </div>
+                                    <div className={styles.single}>
+                                        <div>
+                                            <span></span>
+                                            Json 
+                                        </div>
+                                        <div>
+                                            Node Js
+                                            <span></span> 
+                                        </div>
+                                    </div>
+                                    <div className={styles.single}>
+                                        <div>
+                                            <span></span>
+                                            MongoDB 
+                                        </div>
+                                        <div>
+                                            My SQL
+                                            <span></span> 
                                         </div>
                                     </div>
                                 </div>
